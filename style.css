@@ -1,0 +1,44 @@
+/* Imposta font e centra tutto */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+/* Stile per gli input numerici */
+input[type="number"] {
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Stile per i pulsanti */
+button.op {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.op:hover {
+    background-color: #2980b9;
+}
+
+/* Stile per il risultato */
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2c3e50;
+}
