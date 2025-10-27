@@ -1,3 +1,4 @@
+<!--
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,14 +11,53 @@
 <body>
     <input type="number" name="val1" id="val1">
     <input type="number" name="val2" id="val2">
-    <!-- button.op#$*4 -->
+     button.op#$*4
     <button class="op" id="1">+</button>
     <button class="op" id="2">-</button>
     <button class="op" id="3">*</button>
     <button class="op" id="4">\</button>
 
     <p id="result"></p>
+
+    <ol id="memory"></ol>
+
+
     <script src="JS\calc.js"></script>
 
+</body>
+</html>-->
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Calcolatrice JS</title>
+  <style>
+    body { font-family: sans-serif; margin: 2rem; }
+    input { width: 80px; margin: 0.3rem; }
+    button { margin: 0.3rem; }
+    #result { margin-top: 1rem; font-weight: bold; }
+    #memory { margin-top: 1rem; }
+    #memory li { cursor: pointer; margin: 0.2rem 0; }
+    #memory li:hover { color: blue; text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <h2>Calcolatrice</h2>
+
+  <input id="val1" type="text" placeholder="Numero 1">
+  <input id="val2" type="text" placeholder="Numero 2">
+  <div id="result">Risultato: </div>
+
+  <div id="buttons">
+    <button operation="+">+</button>
+    <button operation="-">-</button>
+    <button operation="*">*</button>
+    <button operation="/">/</button>
+  </div>
+
+  <h3>Storico operazioni</h3>
+  <ul id="memory"></ul>
+
+  <script src="C:\project\progetto\JS\calc.js"></script>
 </body>
 </html>
